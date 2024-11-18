@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Perpustakaan 103</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="assets/logo.png" alt="Perpustakaan SEGA Logo">
+            Perpustakaan SEGA
+        </a>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="buku.html" onclick="toggleMenu()">Buku</a></li>
+            <li><a href="informasi.html">Informasi</a></li>
+            <li><a href="pustakawan.html">Pustakawan</a></li> 
+            <li><a href="tentang.html">Tentang</a></li> 
+        </ul>
+        <div class="bars-btn" id="bars-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="dropdown-menu">
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="buku.html" onclick="toggleMenu()">Buku</a></li>
+                <li><a href="informasi.html">Informasi</a></li>
+                <li><a href="pustakawan.html">Pustakawan</a></li> 
+                <li><a href="tentang.html">Tentang</a></li> 
+            </ul>
+        </div>
+    </header>
+
+
+
+    <section class="banner">
+        <div class="background-image" id="image1"></div>
+        <div class="background-image" id="image2"></div>
+        <div class="background-image" id="image3"></div>
+        <div class="background-image" id="image4"></div>
+        <div class="background-image" id="image5"></div>
+        <div class="banner-content">
+            <h1>Selamat datang di <br> <span>PERPUSTAKAAN SEGA</span></h1>
+            <h2>Jelajahi kekayaan pengetahuan dan sumber daya di Perpustakaan SMAN 103 Jakarta.</h2>
+        </div>
+    </section>
+
+    <section class="map">
+        <h1>LOKASI</h1>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.323663634313!2d106.9338421108157!3d-6.220982360903745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d15434fa03f%3A0xdf01a43c003342ce!2sSMA%20Negeri%20103%20Jakarta!5e0!3m2!1sen!2sid!4v1731451367763!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map-content">
+                <h2>Pepustakaan SMAN 103 Jakarta</h2>
+                <h5>Perumnas Klender, Jl. Mawar Merah VI, Malaka Jaya, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13460</h5>
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    021-8622372
+                </p>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:https://sman103jakarta.sch.id/">https://sman103jakarta.sch.id/</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <div class="logo-col">
+                    <a href="index.html"><img src="assets/logo.png" alt="Perpustakaan SEGA Logo"> Perpustakaan SEGA</a>
+                    <p>Perpustakaan SEGA berfungsi sebagai perpustakaan akademik yang mendukung kegiatan belajar mengajar (KBM) untuk seluruh sivitas akademik SMAN 103 Jakarta.</p>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="buku.html" onclick="toggleMenu()">Buku</a></li>
+                    <li><a href="informasi.html">Informasi</a></li>
+                    <li><a href="pustakawan.html">Pustakawan</a></li>
+                    <li><a href="tentang.html">Tentang</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="socials">
+                    <a href="https://www.instagram.com/smaseratustiga/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://youtube.com/@sman1037?si=aWhOpjoQ9ghz6O7K"target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/Castle103/"target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Perpustakaan SEGA. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
