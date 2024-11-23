@@ -52,7 +52,7 @@ setInterval(() => {
     });
 
     currentImage = currentImage < images.length ? currentImage + 1 : 1;
-}, 3000);
+}, 4000);
 
 // MODAL
 function openModal(title, description) {
@@ -65,7 +65,6 @@ function closeModal() {
     document.getElementById('modal').style.display = 'none';
 }
 
-// Close the modal when clicking outside of the modal content
 window.onclick = function(event) {
     const modal = document.getElementById('modal');
     if (event.target === modal) {
